@@ -1,0 +1,7 @@
+dubbo:
+  application:
+    name: provider-ticket
+  registry:
+    address: zookeeper://192.168.10.131:2181 #注册地址
+  scan:
+    base-packages: com.ticket.service #将service包下的服务发布出去
